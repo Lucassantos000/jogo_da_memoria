@@ -24,9 +24,11 @@ document.body.addEventListener('click', (e)=>{
      
 
         if(e.target.style.display==='none'){
+            console.log('display agora vai ser flex');
             e.target.style.display='flex';
         }else{
             e.target.style.display='none'
+            console.log('display agora vai ser none');
         }
         
         for(let i=0; i<e.target.parentNode.childNodes.length; i++){
