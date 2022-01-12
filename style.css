@@ -1,0 +1,82 @@
+.fundo{
+    display:flex;
+  
+    background-image: linear-gradient(to bottom, rgb(129, 101, 10) , rgba(182, 115, 115, 0.432));
+    width: 100vw;
+    height: 100vh;
+
+    align-items:center;
+    justify-content: center;
+
+}
+
+.mesa{
+    background-image: url("./mesa.png");
+    width: 650px;
+    height: 650px;
+    border-radius: 20px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px;
+
+    min-width: 480px;
+    min-height: 650px;
+}
+
+
+.tabuleiro{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+    width: 95%;
+    height: 95%;
+
+    padding: 5px 5px;
+
+    justify-content: space-evenly;
+
+
+}
+
+.carta{
+    
+    display:flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 130px;
+
+
+    margin: 5px 25px;
+
+    background-color: rgba(83, 39, 39, 0.767);
+    
+    border-radius: 10px;
+
+    box-shadow: 2px 7px 15px 0px black;
+}
+
+.figura{
+    display: none;
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    
+}
+
+.fundo_carta{
+    display: flex;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;    
+}
+
